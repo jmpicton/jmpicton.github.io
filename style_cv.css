@@ -1,0 +1,229 @@
+/* style_cv.css */ 
+/* Mon CV */ 
+/* Par Jiemme */
+/* ----------------------------*/
+@font-face {
+    font-family: 'ambleregular';
+    src: url('Fonts/Amble-Regular-webfont.eot');
+    src: url('Fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Amble-Regular-webfont.woff2') format('woff2'),
+    	 url('Fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('Fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('Fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+
+    font-family: 'ambleregular';
+    src: url('Fonts/Amble-Regular-webfont.woff'); 
+
+
+    font-family: 'blackjack';
+    src: url('Fonts/Blackjack.otf');
+
+    font-family: 'Montserrat-Regular';
+    src: url('Fonts/Montserrat-Regular.otf');
+
+	font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Paramètres Généraux */   
+body 
+{
+	font-family: 'blackjack', 'Montserrat-Regular', 'ambleregular', 'verdana', 'arial';
+	margin: 0;
+}
+
+h1
+{
+	margin: 0px;
+	color: #57277B;
+}
+
+h2
+{
+	margin-top: 0px;
+}
+
+h4
+{
+	text-align: center;
+	font-size: 1.6em;
+	color: #57277B;
+	background-color: #000000;
+}
+
+p
+{
+	font-size: 0.8em;
+}
+
+/* Comportement des liens */
+a
+{
+	text-decoration: underline;
+	color: #145E69;
+}
+
+a:hover
+{
+	text-decoration: none; 
+	color: #DE2859;
+}
+
+.colortexte 
+{
+	color: #9A9FAE; /* Couleur du texte des paragraphes et listes */
+}
+
+.colortitre 
+{
+	color: #25820D; /* Couleur des titres h2 et h3 */
+}
+
+#bloc_page
+{
+    display: flex;
+}
+
+.justifie
+{
+	text-align: justify; /* Alignement du texte des paragraphes */
+}
+
+.sans_sousligne
+{
+	text-decoration: none;
+}
+
+/* Paramètres de la Section Gauche */
+
+#section_gauche
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 33%;
+	background-color: #57277B;
+}
+
+#photo
+{
+	box-shadow: 3px 3px 7px rgb(0,0,0);
+	border-radius: 50%;
+}
+
+.personnel
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#loisirs
+{
+    display: flex;
+	justify-content: space-around;
+}
+
+.dessous
+{
+	clear: both;
+}
+
+.hr_petit_g
+{
+	border-color: #9A9FAE;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 25%;
+}
+
+/* Paramètres de la Section Droite */
+
+#section_droite
+{
+    width: 67%;
+    padding: 50px; 
+}
+
+.flotte
+{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.flotte_g
+{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.marge_h
+{
+	margin-top: 50px;
+	padding-top: 10px;
+}
+
+.marge_d
+{
+	margin-right: 40px;
+	width: 100px;
+}
+
+.parcours, .formation
+{
+	display: flex;
+	margin-top: 25px;
+}
+
+.marge_p
+{
+	margin-left: 50px;
+}
+
+.marge_h5
+{
+	margin-left: 50px;
+	margin-top: 0px;
+}
+
+.marge_h5_haut
+{
+	margin-top: 15px;
+}
+
+.centre
+{
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.hr_petit_d
+{
+	border-color: #57277B;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 15%;
+}
+
+.hr_grand_d
+{
+	border-color: #57277B;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 100%;
+}
+
+#loisirs_d
+{
+    display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+
+
+
+
