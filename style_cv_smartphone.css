@@ -1,0 +1,89 @@
+/* style_cv.css */ 
+/* Mon CV */ 
+/* Ecran Tablettes et Smartphone */
+/* Par Jiemme */
+/* ----------------------------*/
+
+@media screen and (max-width: 1024px)
+{
+	#bloc_page 
+	{
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+	    flex-direction: column;
+
+	}
+
+	#section_gauche
+	{
+		width: 100%;
+	}
+
+	#section_droite
+	{
+		padding: 0;
+		width: 100%;
+	}
+
+	.marge_p_resp
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+
+	p, h1, h2, h3, h5
+	{
+		text-align: center;
+	}
+
+	.marge_h5
+	{
+		margin-left: 0px;
+	}
+
+	.marge_d
+	{
+		margin: auto;
+	}
+
+	.parcours
+	{
+		display: block;
+	}
+
+	.formation
+	{
+		display: block;
+	}
+
+	.flotte
+	{
+		text-align: center;
+		float: none;
+	}
+
+	.hr_petit_g, .hr_petit_d, .hr_grand_d
+	{
+		width: 25%;
+		margin: auto;
+	}
+
+	.centre_resp
+	{
+		display: block;
+		margin: auto;
+		width: auto;
+	}
+
+	#loisirs_d
+	{
+	    display: block;
+	}
+
+}
+
+
+
+
