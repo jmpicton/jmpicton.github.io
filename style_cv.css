@@ -95,6 +95,18 @@ a:hover
 	text-decoration: none;
 }
 
+.centre_p
+{
+	text-align: center;
+}
+
+footer
+{
+	background-color: #C2CCD6;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
 /* Paramètres de la Section Gauche */
 
 #section_gauche
