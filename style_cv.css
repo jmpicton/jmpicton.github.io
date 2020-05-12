@@ -102,7 +102,7 @@ a:hover
 
 .bandeau
 {
-	background-color: #C2CCD6;
+	/*background-color: #C2CCD6;*/
 	overflow: hidden;
 }
 
@@ -127,9 +127,14 @@ a:hover
 
 footer
 {
-	background-color: #C2CCD6;
+	/*background-color: #C2CCD6;*/
 	padding-top: 1px;
 	padding-bottom: 1px;
+}
+
+.bandeau, footer
+{
+	background-color: #57287a2b;
 }
 
 /* Paramètres de la Section Gauche */
