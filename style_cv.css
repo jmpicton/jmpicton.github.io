@@ -42,6 +42,7 @@ h1
 h2
 {
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 h4
@@ -178,6 +179,12 @@ footer
     width: 25%;
 }
 
+.encercle
+{
+	border-radius: 50%;
+	border-style: solid;
+}
+
 /* Paramètres de la Section Droite */
 
 #section_droite
@@ -188,7 +195,7 @@ footer
 
 .flotte
 {
-	float: right;
+	float: left;
 	margin-right: 10px;
 	margin-top: 10px;
 }
@@ -196,7 +203,7 @@ footer
 .flotte_g
 {
 	float: left;
-	margin-right: 10px;
+	margin-right: 30px;
 	margin-top: 10px;
 }
 
@@ -247,7 +254,7 @@ footer
 	border-color: #57277B;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    width: 15%;
+    width: 6%;
 }
 
 .hr_grand_d
