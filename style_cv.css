@@ -183,7 +183,7 @@ footer
 {
 	border-radius: 50%;
 	border-style: solid;
-	border-width: 0.1px;
+	border-width: 0.5px;
 }
 
 /* Paramètres de la Section Droite */
@@ -198,7 +198,7 @@ footer
 {
 	float: left;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .flotte_g
@@ -216,8 +216,8 @@ footer
 
 .marge_d
 {
-	margin-right: 40px;
-	width: 100px;
+	/*margin-right: 40px;*/
+	width: 200px;
 }
 
 .parcours, .formation
